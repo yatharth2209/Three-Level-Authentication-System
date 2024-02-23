@@ -20,14 +20,14 @@ $mail->Host = 'smtp.gmail.com';
 $mail->Port = 587;
 $mail->SMTPSecure = 'tls';
 $mail->SMTPAuth = true;
-$mail->Username = "ysinghal2209@gmail.com";
-$mail->Password = "benditlikebeckhamshootitlikecr7";
+$mail->Username = "email.com";
+$mail->Password = "password";
  
-$mail->setFrom = 'ysinghal2209@gmail.com';
-$mail->FromName = 'Yatharth Singhal';
-$mail->addAddress('ysinghal2209@gmail.com', 'Yatharth');
+$mail->setFrom = 'email';
+$mail->FromName = 'Full Name';
+$mail->addAddress('email address', 'Name');
  
-$mail->addReplyTo('ysinghal2209@gmail.com', 'Yatharth');
+$mail->addReplyTo('email address', 'Name');
  
 $mail->WordWrap = 50;
 $mail->isHTML(true);
